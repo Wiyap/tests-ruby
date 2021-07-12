@@ -16,4 +16,5 @@ describe 'time_string' do
   it "should display 4000 seconds as 01:06:40" do
     expect(time_string(4000)).to eq("01:06:40")
   end
+  
 end
