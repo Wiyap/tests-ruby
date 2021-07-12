@@ -8,6 +8,10 @@ def translate(s)
             n = n + n[0..1]
             n.slice!(0..1)
             arr[h] = n
+        elsif n[0..2] == "sch"
+            n = n + n[0..2]
+            n.slice!(0..2)
+            arr[h] = n
         else
             n = n + n[0]
             n.slice!(0)
